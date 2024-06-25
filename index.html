@@ -14,9 +14,9 @@
 
         .wag{
             display: flex;
-            border: 2px solid white;
-            justify-content: space-between
-            
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
         }
 
         .cadastro{
@@ -24,9 +24,15 @@
             border: 2px solid black;
             width: 400px;
             height: 200px;
+            justify-content: center;
             text-align: center;
             border-radius: 15px;
             margin: 100px;
+        }
+
+        .button{
+            display: flex;
+            padding: 5px;
         }
 
 
@@ -38,7 +44,8 @@
         .whywag{
             display: flex;
             justify-content: center;
-            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
         }
         .lovedogs{
             background-color: rgb(216, 241, 177);
@@ -57,8 +64,7 @@
             background-color: rgb(81, 84, 238);
             width: 100%;
             height: 300px;
-            justify-content: center;
-            align-items: flex-start;
+            align-items: center;
             
         }
 
@@ -66,44 +72,45 @@
 </head>
 <body>
     <div class="wag">
-        <ul>Services</ul>
-        <ul>Health & Wellness</ul>
-        <ul>Resources</ul>
-        <ul>Help Center & Safety</ul>
-        <ul>Become a caregiver</ul>
-        <ul>My account</ul>
+        <h1>Wag!</h1>
+        <a href="">Services</a>
+        <a href="">Health & Wellness</a>
+        <a href="">References</a>
+        <a href="">Help Center & Safety</a>
+        <a href="">Become a Caregiver</a>
+        <a href="">My Account</a>
     </div>
+
     <div class="cadastro">
         <div>Enter your name as it appears on your  ID</div>
         
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-
+            <div class="button"><input type="text" placeholder="Espaço 1"></div>
+            <div class="button"><input type="text" placeholder="Espaço 1"></div>
+            <div class="button"><input type="text" placeholder="Espaço 1"></div>
+            <div class="button"><input type="text" placeholder="Espaço 1"></div>
+            <div class="button"><input type="text" placeholder="Espaço 1"></div>
+        
         </div>
 
-    <div>
-        <h1>Why wag</h1>
-        <div class="whywag">
-            <div>
-                <ul><h3>Publicity</h3></ul>
-                <p>Make money on your own time, set your own schedule.
-                </p>
-
-            <div>
-            <div>
-                <ul><h3>Technology</h3></ul>
-                <p>Wag is a fast, friendly and convenient platform.</p>
-            </div>
-
-            <div>
-                <ul><h3>Safety</h3></ul>
-                <p>Our dedicated 24/7 custumer support.</p>
+        <div>
+            <h1>Why wag</h1>
+            <div class="whywag">
+                <div>
+                    <ul><h3>Publicity</h3></ul>
+                    <p>Make money on your own time, set your own schedule.</p>
+        
+                </div>
+                <div>
+                    <ul><h3>Technology</h3></ul>
+                    <p>Wag is a fast, friendly and convenient platform.</p>
+                </div>
+        
+                <div>
+                    <ul><h3>Safety</h3></ul>
+                    <p>Our dedicated 24/7 custumer support.</p>
+                </div>
             </div>
         </div>
-    </div>
 
     <div class="lovedogs">
         <h2>Love dogs? Get paid for it</h2>
